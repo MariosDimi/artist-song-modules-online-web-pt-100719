@@ -16,10 +16,3 @@ end
   end
 end
 
-class Artist 
-  extend MetaInclude
-end
-
-class Song 
-  extend MetaInclude
-end
