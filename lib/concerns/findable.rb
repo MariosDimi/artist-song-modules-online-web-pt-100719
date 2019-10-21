@@ -1,3 +1,5 @@
 def Findable(find_by_name)
-  Artist.find_by_name("Adele")
+  self.find_by_name(name)
+  @@artists.detect{|a| a.name == name}
+  end
 end
