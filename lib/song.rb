@@ -26,3 +26,6 @@ class Song
    # name.downcase.gsub(' ', '-')
   #end
 end
+
+extend Memorable::ClassMethods
+include Memorable::InstanceMethods
