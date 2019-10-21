@@ -33,6 +33,7 @@ class Artist
   #end
 end
 
-
+extend Memorable::ClassMethods
+include Memorable::InstanceMethods
 
 
